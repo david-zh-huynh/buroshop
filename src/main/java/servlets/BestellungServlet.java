@@ -29,7 +29,7 @@ public class BestellungServlet extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
     
-    @Resource (name="jbdc/kunden_browser")
+    @Resource (name="jdbc/kunden_browser_test")
     private DataSource dataSource;
     private BestellungenDBUtil BestDBUtil;
     
@@ -38,7 +38,7 @@ public class BestellungServlet extends HttpServlet {
     	BestDBUtil = new BestellungenDBUtil(dataSource);
 		super.init();
 	}
-
+    
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
@@ -53,7 +53,7 @@ public class BestellungServlet extends HttpServlet {
 			}
 	
 	
-
+	
 			
 			// Hilfs-Methode um die Bestellliste vom Dao zu erhalten 
 			private List<Bestellung> getBestellListe() {

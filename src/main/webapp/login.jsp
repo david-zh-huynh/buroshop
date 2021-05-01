@@ -25,7 +25,7 @@
           <input type="password" name="passwort" class="form-control" placeholder="Passwort">
         </div>
 
-        <button type="submit" class="float">Login</button>
+        <input type="submit" value="Login" >
        </form>
  		</div>
  </div>

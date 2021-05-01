@@ -10,8 +10,6 @@
 </head>
 <body>
 	<h2>Bestellungsliste:<br></h2>
-	
-
 	<table border="1">
 		<tr>
 			<th>Bestellungs Nummer</th>

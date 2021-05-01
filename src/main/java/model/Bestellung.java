@@ -10,6 +10,16 @@ public class Bestellung {
 	private int anzahl;
 	private float preis;
 	
+	public Bestellung(int bestellungsId, String vorname, String nachname, String artikel, int anzahl, float preis) {
+		super();
+		this.bestellungsId = bestellungsId;
+		this.vorname = vorname;
+		this.nachname = nachname;
+		this.artikel = artikel;
+		this.anzahl = anzahl;
+		this.preis = preis;
+	}
+	
 	public int getBestellungsId() {
 		return bestellungsId;
 	}
@@ -46,16 +56,7 @@ public class Bestellung {
 	public void setPreis(float preis) {
 		this.preis = preis;
 	}
-	public Bestellung(int bestellungsId, String vorname, String nachname, String artikel, int anzahl, float preis) {
-		super();
-		this.bestellungsId = bestellungsId;
-		this.vorname = vorname;
-		this.nachname = nachname;
-		this.artikel = artikel;
-		this.anzahl = anzahl;
-		this.preis = preis;
-	}
-
+	
 	
 	
 }

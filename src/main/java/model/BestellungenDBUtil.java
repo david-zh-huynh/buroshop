@@ -47,6 +47,7 @@ private DataSource dataSource;
 				
 				// Eine ein Bestellungs-Objekt erstellen um die Daten aus der Datenbank zu übertragen.
 				Bestellung tempBestellung = new Bestellung(bestellungsId, vorname, nachname, artikel, anzahl, preis);
+				System.out.println(tempBestellung);
 				
 				// Die Bestellung der Liste hinzufügen.
 				bestellungen.add(tempBestellung);
